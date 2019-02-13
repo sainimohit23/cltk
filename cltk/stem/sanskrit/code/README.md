@@ -12,7 +12,7 @@ Oliver Hellwig, Sebastian Nehrdich: Sanskrit Word Segmentation Using Character-l
 * json
 
 ## Working
-It takes sanskrit text as an input and returns a dictionary for each word in input text. Each word of input( ex-`पुद्गलधर्मनैरात्म्ययोर्`) sanskrit text act as a key for the dictionary and value of each key is list of sandhi splitted words (`['पुद्गल', 'धर्म', 'नैरात्म्ययोः']`) for the corresponding key. On abstract level program has three main steps:
+It takes sanskrit text as an input and returns a dictionary as output. Each word of input( ex-`पुद्गलधर्मनैरात्म्ययोर्`) sanskrit text act as a key for the dictionary and value of each key is list of sandhi splitted words (`['पुद्गल', 'धर्म', 'नैरात्म्ययोः']`) for the corresponding key. On abstract level program has three main steps:
 
 **1)** Encoding of input sanskrit text to it's corresponding [IAST](https://en.wikipedia.org/wiki/Devanagari_transliteration#IAST) encoding. It is done using the script `dev_iast.py`.
 
