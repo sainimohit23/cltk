@@ -83,14 +83,14 @@ kleśa-jñeya-āvaraṇa-prahāṇa-artham
 
 ## Usage
 `sandhisplitter.py` contains the class `SandhiSplitter` which can perform above three steps.It can be initialized in two ways.
-1) When input text is in devnagiri script. ex- `splitter = SandhiSplitter(text='अविपरीतपुद्गलधर्मनैरात्म्यप्रतिपादनार्थं',isIAST=False)`
+1) When input text is in devnagiri script. ex- `splitter=SandhiSplitter(text='अविपरीतपुद्गलधर्मनैरात्म्यप्रतिपादनार्थं',isIAST=False)`
  
     default value of isIAST = False
  
- 2) When input is IAST encoded. ex- `splitter = SandhiSplitter(text='aviparītapudgaladharmanairātmyapratipādanārthaṃ', isIAST=True)`
+ 2) When input is IAST encoded. ex- `splitter=SandhiSplitter(text='aviparītapudgaladharmanairātmyapratipādanārthaṃ', isIAST=True)`
 
 * Now to get sandhi dictionary we just have to call the `getSandhi()` method. ex-
 
   `print(splitter.getSandhi())`
  
-  **output: `{'पुद्गलधर्मनैरात्म्ययोर्': ['पुद्गल', 'धर्म', 'नैरात्म्ययोः']}`
+  **output:** `{'पुद्गलधर्मनैरात्म्ययोर्': ['पुद्गल', 'धर्म', 'नैरात्म्ययोः']}`
