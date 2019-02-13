@@ -83,9 +83,9 @@ kleśa-jñeya-āvaraṇa-prahāṇa-artham
 
 ## Usage
 `sandhisplitter.py` contains the class `SandhiSplitter` which can perform above three steps. It can be initialized in two ways.
-1) When input text is in devnagiri script. ex- `splitter=SandhiSplitter(text='अविपरीतपुद्गलधर्मनैरात्म्यप्रतिपादनार्थं',isIAST=False)`
+1) When input text is in devnagiri script. ex- `splitter=SandhiSplitter(text='अविपरीतपुद्गलधर्मनैरात्म्यप्रतिपादनार्थं',isIAST=False)` .
  
-    default value
+    **default value**
     >isIAST = False.
  
  2) When input is IAST encoded. ex- `splitter=SandhiSplitter(text='aviparītapudgaladharmanairātmyapratipādanārthaṃ', isIAST=True)`
