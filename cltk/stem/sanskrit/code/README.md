@@ -94,3 +94,5 @@ kleśa-jñeya-āvaraṇa-prahāṇa-artham
   `print(splitter.getSandhi())`
  
   **output:** `{'पुद्गलधर्मनैरात्म्ययोर्': ['पुद्गल', 'धर्म', 'नैरात्म्ययोः']}`
+  
+  **NOTE**: If model is not found locally then getSandhi() method will download the pre trained model first.
