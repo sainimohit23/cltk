@@ -96,3 +96,23 @@ kleśa-jñeya-āvaraṇa-prahāṇa-artham
   **output:** `{'पुद्गलधर्मनैरात्म्ययोर्': ['पुद्गल', 'धर्म', 'नैरात्म्ययोः']}`
   
   **NOTE**: If model is not found locally then getSandhi() method will download the pre trained model first.
+  
+  
+## Another usage example
+```
+from sandhisplitter import SandhiSplitter
+
+s = SandhiSplitter("""पुष्पमानयति  शीघ्रमागच्छति अत्रास्ति  भव्याकृतिः""")
+print(s.getSandhi())
+
+```
+
+**Output:**
+
+```
+{'भव्याकृति': ['भव्य', 'आकृति'], 
+'अत्रास्ति': ['अत्र', 'अस्ति'], 
+'शीघ्रमागच्छति': ['शीघ्रम्', 'आगच्छति'], 
+'पुष्पमानयति': ['पुष्पम्', 'आनयति']}
+
+```
