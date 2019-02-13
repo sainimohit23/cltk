@@ -18,6 +18,10 @@ from cltk.stem.akkadian.syllabifier import Syllabifier as AkkadianSyllabifier
 from cltk.stem.akkadian.atf_converter import ATFConverter
 from cltk.stem.french.stem import stem
 from cltk.stem.middle_english.stem import affix_stemmer as MiddleEnglishAffixStemmer
+from cltk.stem.sanskrit.code.sandhisplitter import SandhiSplitter
+
+
+
 import os
 import unittest
 
@@ -606,7 +610,6 @@ class TestSequenceFunctions(unittest.TestCase):  # pylint: disable=R0904
         target = ["a₂", "☉", "be₃"]
         output = atf.process(signs)
         self.assertEqual(output, target)
-
 
 if __name__ == '__main__':
     unittest.main()
