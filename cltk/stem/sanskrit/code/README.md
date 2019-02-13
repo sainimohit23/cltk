@@ -58,7 +58,7 @@ kleśa-jñeya-āvaraṇa-prahāṇa-artham
 
 
 
-**3)** In last step we use `iast_dv.py` to decode the output of the model from IAST to devnagiri.
+**3)** In third step we use `iast_dv.py` to decode the output of the model from IAST to devnagiri.
 ```
 पुद्गल-धर्म-नैरात्म्ययोः
 अप्रतिपन्न-विप्रतिपन्नानाम्
