@@ -14,9 +14,9 @@ class SandhiSplitter():
             self.text = dviast(self.text)
             
     def getSandhi(self):
-        # if os.path.exists("../data/input/additional-data-0-128.json") == False:
-        #     print("Trained model not found, Downloading....")
-        #     Repo.clone_from("https://github.com/sainimohit23/SanskritModel", "../data")
+        if os.path.exists("../data/input/additional-data-0-128.json") == False:
+            print("Trained model not found, Downloading....")
+            Repo.clone_from("https://github.com/sainimohit23/SanskritModel", "../data")
         preds = split_sandhi(self.text, config)
         textSplitted = self.text.split()
         predsSplitted = preds.split()
