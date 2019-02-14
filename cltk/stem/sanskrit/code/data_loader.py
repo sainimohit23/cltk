@@ -3,9 +3,9 @@
 
 import numpy as np
 import os,h5py,json
-import defines
-import de_enc
-import split_counter
+from cltk.stem.sanskrit.code import defines
+from cltk.stem.sanskrit.code import de_enc
+from cltk.stem.sanskrit.code import split_counter
 
 class DataLoader(split_counter.SplitCounter):
     def __init__(self, data_directory, config, load_data_into_ram, load_data = True):

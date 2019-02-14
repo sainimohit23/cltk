@@ -1,6 +1,6 @@
 import numpy as np
 import sys
-import defines
+from cltk.stem.sanskrit.code import defines
 
 def analyze_text(text, path_out, predictions_ph, x_ph, split_cnts_ph, seqlen_ph, dropout_ph, loader, session, verbose = False):
     '''

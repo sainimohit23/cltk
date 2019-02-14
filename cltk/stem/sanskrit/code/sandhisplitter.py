@@ -1,7 +1,7 @@
-import configuration
-from apply import *
-from iast_dev import *
-from dev_iast import *
+from cltk.stem.sanskrit.code import configuration
+from cltk.stem.sanskrit.code.apply import *
+from cltk.stem.sanskrit.code.iast_dev import *
+from cltk.stem.sanskrit.code.dev_iast import *
 from git import Repo
 import os
 

@@ -1,4 +1,4 @@
-import defines
+from cltk.stem.sanskrit.code import defines
 import codecs,os
 
 class DeEncoder(object):

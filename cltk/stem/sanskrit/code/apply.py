@@ -2,8 +2,8 @@
 apply a trained model to a text => Create its padapatha form.
 '''
 import tensorflow as tf
-import helper_functions
-import data_loader
+from cltk.stem.sanskrit.code import helper_functions
+from cltk.stem.sanskrit.code import data_loader
 import os
 
 def split_sandhi(text, config):
